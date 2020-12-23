@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo Lissst</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Todo</h1>
+
+    <form class="todo-form">
+      <input type="text" class="todo-input" placeholder="EnterTodo...">
+      <button type="submit" class="add-button">+</button>
+    </form>
+
+    <ul class="todo-items">
+      <li class="item" value="1">
+        <input class="checkbox" type="checkbox">
+        <button class="delete-button">X</button>
+      </li>
+    </ul>
+    <button id="btn-2">Get Json</button>
+    <div class="output"></div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
